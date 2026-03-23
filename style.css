@@ -187,7 +187,9 @@ nav a:hover {
 .banner h1 {
   margin-bottom: 0;
 }
-
+.banner #jsbut {
+  box-shadow: -4px 6px 12px rgba(0, 0, 0, 0.15);
+}
 .grouping {
   display: flex;
   justify-content: space-between;
