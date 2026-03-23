@@ -39,7 +39,7 @@ camera.position.z = 25;
 const loader = new GLTFLoader();
 
 loader.load(
-  "./models/Sandingnew.gltf",
+  "./assets/Sandingnew.gltf",
 
   function (gltf) {
     object = gltf.scene;
