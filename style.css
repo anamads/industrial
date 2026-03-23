@@ -254,7 +254,7 @@ nav a:hover {
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  column-gap: 2rem;
+  column-gap: 3rem;
   align-items: start; 
 }
 
