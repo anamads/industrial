@@ -221,9 +221,9 @@ nav a:hover {
   background-color: white;
 }
 .trustbox img {
-  height: 50px;
+  height: 45px;
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 /* Decades Section */
 .decades {
