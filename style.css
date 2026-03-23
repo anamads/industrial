@@ -209,7 +209,7 @@ nav a:hover {
   margin: 0 auto;
   width: 60%;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   column-gap: 0.7rem;
 }
 .trust h2 {
