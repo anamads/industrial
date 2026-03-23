@@ -263,13 +263,7 @@ nav a:hover {
 .about p {
   margin: 0;
 }
-.aboutphoto {
-  padding: 0 12rem;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 0.7rem;
-}
+
 .aboutphoto img {
   height: 15rem;
   width: 100%;
