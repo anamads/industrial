@@ -264,11 +264,11 @@ nav a:hover {
   margin: 0;
 }
 
-.infophoto{
+.infophoto {
   width: 100%;
   height: 100%;
 }
-.infophoto img{
+.infophoto img {
   width: 100%;
   height: 100%;
   object-fit: cover; 
