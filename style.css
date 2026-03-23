@@ -57,7 +57,10 @@ a {
   transition-duration: 500ms;
   margin-top: 2rem;
 }
-
+.nongreenbutton #jsbut {
+  background-color: none;
+  border: solid 1px white;
+}
 .button:hover {
   color: #2f3437;
   background-color: white;
