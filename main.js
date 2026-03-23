@@ -65,7 +65,7 @@ loader.load(
 // HDR Environment
 const exrLoader = new EXRLoader();
 
-exrLoader.load("./assets/DaySkyHDRI006A_1K_HDR.exr.exr", (texture) => {
+exrLoader.load("./assets/DaySkyHDRI006A_1K_HDR.exr", (texture) => {
   texture.mapping = THREE.EquirectangularReflectionMapping;
   texture.colorSpace = THREE.SRGBColorSpace;
 
