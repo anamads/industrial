@@ -443,6 +443,9 @@ nav a:hover {
   margin-bottom: 1.5rem;
   line-height: 1.6;
 }
+.footercta{
+  grid-column: 2 / span 3;
+}
 .footer-info {
   grid-column: 7;
 }
