@@ -271,6 +271,12 @@ nav a:hover {
   column-gap: 0.7rem;
   align-items: start; 
 }
+.infoperform {
+  padding-left: 3rem;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  row-gap: 0.7rem;
+}
 
 .about p {
   margin: 0;
