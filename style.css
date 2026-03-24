@@ -312,9 +312,15 @@ nav a:hover {
 
 .productbox h4 {
   position: absolute;
-
   margin: 0;
   top: 1rem;
+  left: 1rem;
+}
+.productbox p {
+  opacity: 70%;
+  position: absolute;
+  margin: 0;
+  top: 2.6rem;
   left: 1rem;
 }
 .intro p {
