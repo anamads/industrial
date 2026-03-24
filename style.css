@@ -58,6 +58,11 @@ a {
   margin-top: 2rem;
   border: 1px solid transparent;
 }
+.button:hover {
+  color: #2f3437;
+  background-color: white;
+  border: solid 1px black;
+}
 .banner .greenbutton #jsbut{
   background-color: white;
   color: #2f3437;
@@ -65,22 +70,19 @@ a {
 .banner .greenbutton #jsbut:hover {
    background-color: #467558;
   color: white;
+   border: 1px solid transparent;
 }
 
-.nongreenbutton #jsbut {
+.nongreenbutton{
   background-color: transparent;
   border: solid 1px white;
 }
-.nongreenbutton #jsbut:hover {
+.nongreenbutton:hover {
    background-color: #467558;
   color: white;
   border: transparent;
 }
-.button:hover {
-  color: #2f3437;
-  background-color: white;
-  border: solid 1px black;
-}
+
 
 
 h1 {
