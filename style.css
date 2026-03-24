@@ -349,8 +349,9 @@ margin: 0;
   left: 1rem;
 }
 .productbox p {
-  font-size: 15px;
+  font-size: 14px;
   opacity: 70%;
+  width: 80%;
   position: absolute;
   margin: 0;
   top: 2.6rem;
