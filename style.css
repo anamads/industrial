@@ -109,7 +109,7 @@ h3 {
   font-family: "Jost", sans-serif;
 }
 h4 {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
   font-family: "Jost", sans-serif;
 }
@@ -362,7 +362,7 @@ margin: 0;
   color: white;
   position: absolute;
   margin: 0;
-  top: 2.6rem;
+  top: 2rem;
   left: 1rem;
 }
 .intro p {
