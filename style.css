@@ -389,8 +389,8 @@ margin: 0;
   position: absolute;
   bottom: 1rem;
   right: 1rem;
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   border: 1px solid white;
   transform: rotate(90deg);
@@ -400,8 +400,8 @@ margin: 0;
   z-index: 2;
 }
 .arrowbutton img {
-  width: 20px; /* 🔥 control icon size */
-  height: 20px;
+  width: 13px; /* 🔥 control icon size */
+  height: 13px;
   object-fit: contain;
 }
 .VR {
