@@ -565,10 +565,7 @@ hr {
   transition-duration: 500ms;
 }
 
-.button:hover {
-  color: #2f3437;
-  background-color: white;
-}
+
 .policy {
   padding: 8rem 12rem 4rem;
 }
