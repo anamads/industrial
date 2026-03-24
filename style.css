@@ -264,7 +264,14 @@ nav a:hover {
   column-gap: 0.7rem;
   align-items: start; 
 }
-
+.performbox{
+  padding: 6rem 12rem 4rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 0.7rem;
+  align-items: start; 
+}
 
 .about p {
   margin: 0;
