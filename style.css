@@ -384,6 +384,7 @@ margin: 0;
   left: 1rem;
    z-index: 2;
 }
+
 .intro p {
   padding: 0 1rem 0 0;
 }
@@ -406,11 +407,25 @@ margin: 0;
   height: 13px;
   object-fit: contain;
 }
+
+@keyframes wiggle {
+  0%   { transform: rotate(0deg); }
+  25%  { transform: rotate(10deg); }
+  50%  { transform: rotate(0deg); }
+  75%  { transform: rotate(-10deg); }
+  100% { transform: rotate(0deg); }
+}
+
+.productbox:hover .arrowbutton img {
+  animation: wiggle 0.8s ease-in-out infinite;
+}
+
 .VR {
   background-color: #2f3437;
   position: relative;
   height: 43rem;
 }
+
 #rotateHint {
   position: absolute;
   bottom: 70px;
