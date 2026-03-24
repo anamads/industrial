@@ -201,7 +201,9 @@ nav a:hover {
   width: 100%;
   text-align: left;
 }
-
+.banner .button {
+  margin-top: 0;
+}
 .banner #jsbut {
   box-shadow: -4px 6px 12px rgba(0, 0, 0, 0.15);
 }
