@@ -310,7 +310,9 @@ nav a:hover {
   row-gap: 0.7rem;
   column-gap: 0.7rem;
 }
-
+.productgrid #jsbut {
+margin: 0;
+}
 .productbox {
   width: 100%;
   position: relative;
