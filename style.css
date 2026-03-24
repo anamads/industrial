@@ -370,7 +370,6 @@ nav a:hover {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  z-index: 1;
   color: white;
   margin-top: 0;
   text-align: center;
@@ -383,12 +382,10 @@ nav a:hover {
   box-sizing: border-box;
   width: 100%;
   padding: 14rem 12rem 0;
-  z-index: 2;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 3rem;
   row-gap: 3rem;
-
   pointer-events: none;
 }
 
@@ -400,57 +397,7 @@ nav a:hover {
   opacity: 70%;
 }
 
-/*FAQ*/
-.icon-main {
-  width: 20px;
-  height: 20px;
-  padding: 5px;
-  position: absolute;
-  right: 0px;
-  cursor: pointer;
-}
 
-.questions ul {
-  padding: 0;
-}
-
-.questions {
-  background-color: white;
-  padding-top: 6rem;
-  padding-bottom: 4rem;
-}
-
-.questions li {
-  list-style: none;
-  margin-bottom: 0;
-  padding: 10px;
-  border-bottom: 1px solid #6d6b6b66;
-}
-.questbox {
-  display: grid;
-  grid-template-columns: 7fr 1fr;
-  align-items: center;
-  padding: 5px 0;
-}
-
-.qgrid {
-  margin-top: 1rem;
-  padding-left: 0;
-}
-.answers {
-  margin: 2rem auto;
-  display: none;
-}
-
-.faq.active .answers {
-  display: block;
-}
-.non-active {
-  display: none;
-}
-.faq.active .icon-main {
-  transform: rotate(45deg);
-}
 .cta {
   background-color: white;
   display: flex;
