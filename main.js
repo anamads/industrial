@@ -46,11 +46,7 @@ loader.load(
 
     updateModelScale();
 
-    object.traverse((child) => {
-      if (child.isMesh) {
-        child.userData.description = "This is a basic description.";
-      }
-    });
+  
 
     scene.add(object);
 
