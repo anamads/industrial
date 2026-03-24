@@ -58,6 +58,9 @@ a {
   margin-top: 2rem;
   border: 1px solid transparent;
 }
+.banner #jsbut{
+  background-color: white;
+}
 .nongreenbutton #jsbut {
   background-color: transparent;
   border: solid 1px white;
