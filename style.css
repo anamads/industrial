@@ -494,7 +494,7 @@ margin: 0;
   grid-column: 5;
 }
 .footer h3 {
-  margin: 0 auto 0.3rem;
+  margin: 0 auto 10px;
   font-size: 20px;
 }
 .collapse {
