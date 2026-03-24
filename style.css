@@ -58,11 +58,11 @@ a {
   margin-top: 2rem;
   border: 1px solid transparent;
 }
-.banner #jsbut{
+.banner .greenbutton #jsbut{
   background-color: white;
   color: #2f3437;
 }
-.banner #jsbut:hover {
+.banner .greenbutton #jsbut:hover {
    background-color: #467558;
   color: white;
 }
