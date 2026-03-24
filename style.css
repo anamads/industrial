@@ -298,7 +298,10 @@ nav a:hover {
   background-color: white;
   padding: 2rem;
 }
-
+.pebox h4 {
+  opacity:50%;
+}
+  
 .about p {
   margin: 0;
   padding-right: 3rem;
