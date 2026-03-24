@@ -73,11 +73,11 @@ a {
    border: 1px solid transparent;
 }
 
-.nongreenbutton{
+.nongreenbutton #jsbut{
   background-color: transparent;
   border: solid 1px white;
 }
-.nongreenbutton:hover {
+.nongreenbutton #jsbut:hover {
    background-color: #467558;
   color: white;
   border: transparent;
