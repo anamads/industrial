@@ -86,7 +86,8 @@ a {
 
 
 h1 {
-  font-size: 72px;
+  font-size: 80px;
+  line-height: 1.1;
   width: 40%;
   color: white;
   font-family: "Jost", sans-serif;
