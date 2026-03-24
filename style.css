@@ -317,6 +317,7 @@ nav a:hover {
   left: 1rem;
 }
 .productbox p {
+  font-size: 15px;
   opacity: 70%;
   position: absolute;
   margin: 0;
