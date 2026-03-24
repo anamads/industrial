@@ -402,18 +402,16 @@ nav a:hover {
   background-color: white;
   display: flex;
   flex-direction: column;
-
   justify-content: center;
   text-align: center;
   margin: 0 auto;
-
   padding: 6rem 12rem 4rem 12rem;
 }
 .cta h3 {
   margin-top: 0;
 }
 .cta p {
-  width:60%;
+  width:50%;
   margin: 0 auto;
 }
 .footer {
