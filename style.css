@@ -261,13 +261,14 @@ nav a:hover {
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  column-gap: 3rem;
+  column-gap: 0.7rem;
   align-items: start; 
 }
 
 
 .about p {
   margin: 0;
+  padding-right: 3rem;
 }
 
 .infophoto {
