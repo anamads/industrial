@@ -468,16 +468,16 @@ margin: 0;
   line-height: 1.6;
 }
 .footercta{
-  grid-column: 5 / span 3;
+  grid-column: 2 / span 3;
 }
 .footer-info {
-  grid-column: 4;
+  grid-column: 7;
 }
 .footer-info1 {
-  grid-column: 3;
+  grid-column: 6;
 }
 .footer-info2 {
-  grid-column: 2;
+  grid-column: 5;
 }
 .footer h3 {
   margin: 0 auto 0.3rem;
