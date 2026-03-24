@@ -288,11 +288,14 @@ nav a:hover {
 }
 .infoperform {
   display: grid;
-  background-color: white;
   grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
   row-gap: 0.7rem;
   column-gap: 0.7rem;
+}
+.pebox {
+  background-color: white;
+  padding: 2rem;
 }
 
 .about p {
