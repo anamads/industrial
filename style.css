@@ -180,7 +180,7 @@ nav a:hover {
 }
 
 .banner {
-  top: 5rem;
+  top: 3rem;
   margin: 0 12rem;
   bottom: 0;
   position: relative;
@@ -344,12 +344,12 @@ nav a:hover {
   transform: translateX(-50%);
   box-sizing: border-box;
   width: 100%;
-  padding: 12rem 12rem 0;
+  padding: 14rem 12rem 0;
   z-index: 2;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 3rem;
-  row-gap: 2rem;
+  row-gap: 3rem;
 
   pointer-events: none;
 }
