@@ -60,11 +60,13 @@ a {
 }
 .banner #jsbut{
   background-color: white;
-  color: #2f3437
+  color: #2f3437;
 }
 .banner #jsbut:hover {
    background-color: #467558;
+  color: white;
 }
+
 .nongreenbutton #jsbut {
   background-color: transparent;
   border: solid 1px white;
@@ -72,13 +74,9 @@ a {
 .button:hover {
   color: #2f3437;
   background-color: white;
-}
-.intro #jsbut:hover {
   border: solid 1px black;
 }
-.cta #jsbut:hover {
-  border: solid 1px black;
-}
+
 
 h1 {
   font-size: 72px;
