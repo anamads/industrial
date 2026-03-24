@@ -357,11 +357,11 @@ margin: 0;
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.3); /* darkness level */
+  background: rgba(0, 0, 0, 0.35); /* darkness level */
   transition: 0.3s ease;
 }
 .productbox:hover::after {
-  background: rgba(0, 0, 0, 0.15);
+  background: rgba(0, 0, 0, 0.1);
 }
 .productbox h4 {
   position: absolute;
@@ -385,7 +385,25 @@ margin: 0;
 .intro p {
   padding: 0 1rem 0 0;
 }
-
+.arrowbutton {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid white;
+  transform: rotate(90deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+.arrowbutton img {
+  width: 20px; /* 🔥 control icon size */
+  height: 20px;
+  object-fit: contain;
+}
 .VR {
   background-color: #2f3437;
   position: relative;
