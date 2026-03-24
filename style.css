@@ -460,10 +460,13 @@ nav a:hover {
   text-align: center;
   margin: 0 auto;
 
-  padding: 0rem 12rem 4rem 12rem;
+  padding: 6rem 12rem 4rem 12rem;
 }
 .cta h3 {
   margin-top: 0;
+}
+.cta p {
+  width:60%;
 }
 .footer {
   display: grid;
