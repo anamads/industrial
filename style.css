@@ -60,6 +60,10 @@ a {
 }
 .banner #jsbut{
   background-color: white;
+  color: #2f3437
+}
+.banner #jsbut:hover {
+   background-color: #467558;
 }
 .nongreenbutton #jsbut {
   background-color: transparent;
