@@ -91,6 +91,7 @@ h1 {
   width: 40%;
   color: white;
   font-family: "Jost", sans-serif;
+  margin-bottom: 24px;
 }
 h2 {
   font-size: 32px;
@@ -199,10 +200,9 @@ nav a:hover {
   width: 100%;
   text-align: left;
 }
-.banner h1 {
-  margin-bottom: 1rem;
-}
+
 .banner #jsbut {
+  margin-top: 28px;
   box-shadow: -4px 6px 12px rgba(0, 0, 0, 0.15);
 }
 .grouping {
