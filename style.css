@@ -403,9 +403,12 @@ margin: 0;
   z-index: 2;
 }
 .arrowbutton img {
-  width: 13px; /* 🔥 control icon size */
+  width: 13px; 
   height: 13px;
   object-fit: contain;
+}
+.arrowbutton: hover {
+  border: 2px solid white;
 }
 
 @keyframes wiggle {
