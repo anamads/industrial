@@ -291,8 +291,8 @@ nav a:hover {
 }
 .infoperform {
   display: grid;
-  grid-template-rows: 1fr 1fr;
-  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr;
   row-gap: 0.7rem;
   column-gap: 0.7rem;
 }
