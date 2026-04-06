@@ -7,6 +7,24 @@ import { GLTFLoader } from "https://cdn.jsdelivr.net/npm/three@0.129.0/examples/
 
 import { EXRLoader } from "https://cdn.jsdelivr.net/npm/three@0.129.0/examples/jsm/loaders/EXRLoader.js?module";
 
+//Check model loading
+
+const loader = new GLTFLoader();
+
+loader.load(
+  './assets/Sandingnew.gltf', 
+  (gltf) => {
+    console.log('✅ Model loaded');
+    scene.add(gltf.scene);
+  },
+  undefined,
+  (error) => {
+    console.error('❌ Error loading model:', error);
+  }
+);
+
+
+
 // Create a scene
 const scene = new THREE.Scene();
 
