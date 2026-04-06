@@ -1,13 +1,11 @@
 // Import the THREE.js library
-import * as THREE from "https://cdn.jsdelivr.net/npm/three@0.129.0/build/three.module.js";
+import * as THREE from "https://esm.sh/three@0.129.0";
 
-import { OrbitControls } from "https://cdn.jsdelivr.net/npm/three@0.129.0/examples/jsm/controls/OrbitControls.js";
+import { OrbitControls } from "https://esm.sh/three@0.129.0/examples/jsm/controls/OrbitControls.js";
 
-import { GLTFLoader } from "https://cdn.jsdelivr.net/npm/three@0.129.0/examples/jsm/loaders/GLTFLoader.js";
+import { GLTFLoader } from "https://esm.sh/three@0.129.0/examples/jsm/loaders/GLTFLoader.js";
 
-import { EXRLoader } from "https://cdn.jsdelivr.net/npm/three@0.129.0/examples/jsm/loaders/EXRLoader.js";
-
-
+import { EXRLoader } from "https://esm.sh/three@0.129.0/examples/jsm/loaders/EXRLoader.js";
 
 
 // Create a scene
