@@ -1,8 +1,11 @@
 // Import the THREE.js library
-import * as THREE from "https://cdn.skypack.dev/three@0.129.0/build/three.module.js";
-import { OrbitControls } from "https://cdn.skypack.dev/three@0.129.0/examples/jsm/controls/OrbitControls.js";
-import { GLTFLoader } from "https://cdn.skypack.dev/three@0.129.0/examples/jsm/loaders/GLTFLoader.js";
-import { EXRLoader } from "https://cdn.skypack.dev/three@0.129.0/examples/jsm/loaders/EXRLoader.js";
+import * as THREE from "https://cdn.jsdelivr.net/npm/three@0.129.0/build/three.module.js";
+
+import { OrbitControls } from "https://cdn.jsdelivr.net/npm/three@0.129.0/examples/jsm/controls/OrbitControls.js?module";
+
+import { GLTFLoader } from "https://cdn.jsdelivr.net/npm/three@0.129.0/examples/jsm/loaders/GLTFLoader.js?module";
+
+import { EXRLoader } from "https://cdn.jsdelivr.net/npm/three@0.129.0/examples/jsm/loaders/EXRLoader.js?module";
 
 // Create a scene
 const scene = new THREE.Scene();
